@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAÉ — Statistiques inférentielles</title>
+    <link href="style_sae_global.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="menu">
+        <h1>SAÉ Statistiques inférentielles</h1>
+    </div>
+
+    <div id="gauche">
+        <nav>
+            <ul>
+                <li><a href="./../Travaux_universitaires.html" class="retour">Retour aux travaux</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="centre">
+        <h2>Présentation</h2>
+
+        <br><img src="./Images/statInfé.png" alt="" /></br>
+		<br><img src="./Images/statInfé_graphiques.png" alt="" /></br>
+		<br><img src="./Images/statInfé_1.png" alt="" /></br>
+		<br><img src="./Images/statInfé_2.png" alt="" /></br>
+		<br><img src="./Images/statInfé_3.png" alt="" /></br>
+		<br><img src="./Images/statInfé_4.png" alt="" /></br>
+
+        <p><br>Pour cette SAÉ, le travail était divisé en deux parties. La première consistait à estimer la population d'une région française en ne prenant qu'un échantillon de communes, la seconde avait pour but de réaliser des tests d'indépendance.</br></p>
+        <p><br>Dans la première partie, l'objectif était de tester deux méthodes d'échantillonnage : l'échantillonnage aléatoire simple et l'échantillonnage aléatoire stratifié. J'ai travaillé sur la région des Hauts-de-France. Il s'agissait de réaliser un code <i>R</i> permettant de tirer 100 communes au hasard avec leur nombre d'habitants, afin d'en estimer la population totale. Les tests ont montré que la méthode stratifiée est plus précise que l'aléatoire simple, sans pour autant être parfaite. Les résultats ont été enregistrés dans un fichier Excel avec un graphique par méthode.</br></p>
+        <p><br>Dans la deuxième partie, indépendante de la première, le but était de réaliser des tests d'indépendance entre le fait d'être sportif et d'autres modalités parmi les étudiants de l'université de Poitiers en 2024. Ce test se fait grâce au khi-deux d'indépendance : plus le résultat est proche de 0, plus les modalités sont dépendantes ; plus il est proche de 1, plus elles sont indépendantes. Le V de Cramer a également été calculé pour mesurer le niveau de dépendance entre deux modalités. Ces calculs ont été réalisés en <i>R</i>.</br></p>
+        <p><br>Les attendus étaient un code <i>R</i> contenant les deux parties ainsi qu'un rapport sur l'ensemble du travail.</br></p>
+    </div>
+
+</body>
+</html>
